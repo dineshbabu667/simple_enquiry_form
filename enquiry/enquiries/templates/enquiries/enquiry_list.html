@@ -1,0 +1,65 @@
+ {% extends 'default_theme/base/__base.html' %}
+
+ {% block Style_sheets %}
+ {% endblock Style_sheets %}
+ 
+ 
+ {% load widget_tweaks %}
+ 
+  {% block Content_Area %}
+  
+  
+   <div class="row">{{table}}
+      <div class="col-md-12">
+                     <div class="panel panel-success">
+                        <div class="panel-heading">
+                         {{ Title }}
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                             <th>User No.</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>100090</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ 
+ 
+ 
+ 
+ </div>
+  
+  {% endblock Content_Area %}
+  
+  
+  
+   {% block Java_Scripts %}
+   
+   
+     {% endblock %}
+ 
+                </div>
+ 
+ 
+ 
+ 
+ </div>
