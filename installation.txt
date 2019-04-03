@@ -1,0 +1,126 @@
+Python installation
+-------------------
+
+yum groupinstall 'Development Tools'
+
+yum install epel-release
+
+
+
+yum install python36 python-pip
+
+pip install virtualenv
+
+
+
+Django installation 
+---------------------
+mkdir enquiry
+
+cd enquiry
+
+virtualenv -p python36 .
+
+source bin/activate
+
+pip install django==1.11
+
+django-admin startproject enquiry
+
+cd enquiry
+
+./manage.py makemigrations 
+
+./manage.py migrate 
+
+./manage.py createsuperuser 
+
+
+pip intsall ipdb
+
+pip install Pillow==4.2.1 
+
+pip install django-extensions==1.8.1
+
+cd ..
+
+ls
+
+pip freeze > requirements.txt
+
+Basic requirements installed app list 
+-------------------------------------
+
+pip install django-widget-tweaks==1.4.1
+
+pip install django-tables2==2.0.3
+
+pip install django-crispy-forms==1.6.1
+
+pip install django-filter==1.0.2
+
+pip install djangoajax==2.3.5
+
+pip install django-select2==6.3.1
+
+
+
+settings.py 
+--------------
+
+'widget_tweaks',
+'django_tables2',
+'crispy_forms',
+'django_ajax',
+'django_filters',
+'django_select2',
+
+
+
+windows 
+---------
+https://pip.pypa.io/en/stable/installing/
+
+
+
+mkdir demo
+
+virtualenv .
+
+dir
+Script/activate
+pip install django==1.11
+django-admin startproject demo 
+
+
+
+
+
+debian
+-----------
+apt-get 
+
+
+
+<script type="text/javascript" src="{% static 'django_ajax/js/jquery.ajax.min.js' %}"></script>
+
+
+https://stackoverflow.com/questions/20208562/homepage-login-form-django
+
+lite weight theme 
+------------------
+
+https://www.free-css.com/free-css-templates/page209/horizontal-admin
+
+sinle page theme
+--------------------
+
+https://www.tutorialrepublic.com/snippets/gallery.php?tag=sign-up
+
+---------------
+
+
+email with login
+----------------
+
+https://stackoverflow.com/questions/25316765/log-in-user-using-either-email-address-or-username-in-django
